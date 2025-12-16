@@ -51,4 +51,34 @@ framework and that its structural properties can be leveraged to construct seque
 global divisibility constraints. It bridges algorithm design and classical number theory through both
 formal reasoning and computational validation.
 
+REPOSITORY STRUCTURE
+-------------------
+This repository is organized into three branches to clearly separate documentation and the two
+major technical components of the project:
+
+- main
+  Contains the complete project report and the README file.
+  This branch serves as the primary reference for the theory, explanations, and overall project
+  description.
+
+- Fibonacci_arithmetic
+  Contains all source code related to arithmetic in the Fibonacci (Zeckendorf) number system.
+  This includes:
+  * Integer-to-Zeckendorf conversion
+  * Fibonacci addition with normalization
+  * Knuth’s circle multiplication
+  * Inverse circle multiplication (Egyptian division)
+
+- Graham's_Composite_Series
+  Contains all source code related to Graham’s construction of Fibonacci-like sequences with no
+  prime terms.
+  This includes:
+  * Verification of Graham’s covering system
+  * Pisano period computations
+  * Chinese Remainder Theorem implementation
+  * Reconstruction and validation of Graham’s initial conditions
+
+This branching structure is intended to keep the theoretical exposition, Fibonacci arithmetic
+algorithms, and number-theoretic constructions cleanly separated while remaining logically
+connected.
 
